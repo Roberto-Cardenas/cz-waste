@@ -1,13 +1,11 @@
 import React from 'react'
 
-const WasteItemList = ({ backgroundColor, description, items }) => {
-  var itemId = 0;
-  
+const WasteItemList = ({ backgroundColor, description, items }) => {  
   return (
     <div className = "waste-items-list" style = {{backgroundColor: backgroundColor}}>
       <h5 className = "waste-description">{description}</h5>
       {items.map((item) => 
-        <h4 key = {itemId++}>{item}</h4>
+        <h4 key = {item.id}>{item.name}</h4>
       )}
     </div>
   )

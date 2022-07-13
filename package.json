@@ -1,6 +1,6 @@
 {
-  "name": "waste-react",
-  "homepage": "http://http://localhost/waste-react/build/",
+  "name": "waste",
+  "homepage": "./",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
